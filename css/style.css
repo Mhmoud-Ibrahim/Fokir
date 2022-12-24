@@ -138,7 +138,7 @@
     .border-style{
     position: absolute;
     width:60%;
-    height:52vh;
+    height:67vh;
     top: -15px;
     z-index:-10;
     left:70px;
@@ -507,7 +507,7 @@
     .feed {
         width: 70%;
         margin: auto;
-        height: 40vh;
+        height: 42vh;
         background-color:#f1f1f1;
         padding-bottom:50px;
       
@@ -516,6 +516,7 @@
         width: 40%;
        position: relative;
         float: left;
+    
     }
     .feed-img img{
         border-radius: 50%;
@@ -533,6 +534,7 @@
 .feed-back .feed-img::before{
     content: "";
     position:absolute;
+    left: 0;
     border-width: 100px;
     border-style: solid;
     border-color:  #ff305b  transparent transparent #ff305b;
